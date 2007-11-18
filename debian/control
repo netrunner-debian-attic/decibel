@@ -10,34 +10,42 @@ Package: libdecibel-dev
 Section: libdevel
 Architecture: any
 Depends: libdecibel0.6.0 (= ${binary:Version})
-Description: header files for decibel communication framework
+Description: header files for Decibel communication framework
  Decibel is a realtime communications framework, integrating services like CTI 
  (Computer Telephone Integration), VoIP (Voice over IP), text based chat 
- and instant messaging
+ and instant messaging.
+ .
+ This package contains the headers files for Decibel.
 
 Package: libdecibel0.6.0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: decibel realtime communications framework
+Description: Decibel realtime communications framework
  Decibel is a realtime communications framework, integrating services like CTI 
  (Computer Telephone Integration), VoIP (Voice over IP), text based chat 
- and instant messaging
+ and instant messaging.
+ .
+ This package contains the shared library for Decibel.
 
 Package: decibel
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: binaries for decibel realtime communication
+Description: binaries for Decibel realtime communication
  Decibel is a realtime communications framework, integrating services like CTI 
  (Computer Telephone Integration), VoIP (Voice over IP), text based chat 
- and instant messaging
+ and instant messaging.
+ .
+ This package contains the Decibel binaries.
 
 Package: decibel-kde4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: kde4 related parts of decibel
+Description: KDE4 related parts of Decibel
  Decibel is a realtime communications framework, integrating services like CTI 
  (Computer Telephone Integration), VoIP (Voice over IP), text based chat 
- and instant messaging
+ and instant messaging.
+ .
+ This package contains the KDE4 related parts of Decibel.
