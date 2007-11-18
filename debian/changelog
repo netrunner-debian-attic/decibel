@@ -1,0 +1,6 @@
+decibel (0.5.0+svn737972-1) experimental; urgency=low
+
+  * Initial release (Closes: #451664)
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 17 Nov 2007 15:51:34 +0100
+
