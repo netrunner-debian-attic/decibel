@@ -1,3 +1,10 @@
+decibel (0.5.0+svn737972-2) experimental; urgency=low
+
+  * Add depends on libqttapioca-dev and  libqttelepathy-dev for
+    libdecibel-dev.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 22 Nov 2007 08:19:54 +0100
+
 decibel (0.5.0+svn737972-1) experimental; urgency=low
 
   * Initial release (Closes: #451664)
