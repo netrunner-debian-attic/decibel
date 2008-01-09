@@ -43,9 +43,9 @@ Package: decibel-kde4
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE4 related parts of Decibel
+Description: KDE 4 related parts of Decibel
  Decibel is a realtime communications framework, integrating services like CTI 
  (Computer Telephone Integration), VoIP (Voice over IP), text based chat 
  and instant messaging.
  .
- This package contains the KDE4 related parts of Decibel.
+ This package contains the KDE 4 related parts of Decibel.
