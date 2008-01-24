@@ -8,8 +8,8 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@de
 
 Package: libdecibel-dev
 Section: libdevel
-Architecture: all
-Depends: libdecibel0.6.0 (= ${source:Version}), libqttapioca-dev, libqttelepathy-dev
+Architecture: any
+Depends: libdecibel0.6.0 (= ${binary:Version}), libqttapioca-dev, libqttelepathy-dev
 Description: header files for Decibel communication framework
  Decibel is a realtime communications framework, integrating services like CTI 
  (Computer Telephone Integration), VoIP (Voice over IP), text based chat 
