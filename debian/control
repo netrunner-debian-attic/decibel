@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@de
 Package: libdecibel-dev
 Section: libdevel
 Architecture: any
-Depends: libdecibel0.6.0 (= ${binary:Version}), libqttapioca-dev, libqttelepathy-dev
+Depends: libdecibel0.7.0 (= ${binary:Version}), libqttapioca-dev, libqttelepathy-dev
 Description: development files for the Decibel communications framework
  Decibel is a real-time communications framework, which manages services such
  as Computer Telephony Integration (CTI), Voice over Internet Protocol (VoIP),
@@ -19,7 +19,7 @@ Description: development files for the Decibel communications framework
  This package contains development files for building software that uses the
  Decibel libraries.
 
-Package: libdecibel0.6.0
+Package: libdecibel0.7.0
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
@@ -34,6 +34,9 @@ Description: libraries for the Decibel communications framework
 Package: decibel
 Section: libs
 Architecture: any
+Conflicts: decibel-kde4
+Provides: decibel-kde4
+Replaces: decibel-kde4
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: executables for the Decibel communications framework
  Decibel is a real-time communications framework, which manages services such
@@ -41,16 +44,5 @@ Description: executables for the Decibel communications framework
  text-based chat, and instant messaging.  It provides a simple D-Bus interface
  for communication protocols, accounts, contacts, and desktop components.
  .
- This package contains programs the Decibel D-Bus service.
-
-Package: decibel-kde4
-Section: libs
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: KDE 4 desktop components for the Decibel communications framework
- Decibel is a real-time communications framework, which manages services such
- as Computer Telephony Integration (CTI), Voice over Internet Protocol (VoIP),
- text-based chat, and instant messaging.  It provides a simple D-Bus interface
- for communication protocols, accounts, contacts, and desktop components.
- .
- This package contains Decibel desktop components for KDE 4.
+ This package contains programs the Decibel D-Bus service. and the Decibel 
+ desktop components for KDE 4.

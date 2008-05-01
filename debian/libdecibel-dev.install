@@ -3,7 +3,6 @@ usr/include/Decibel/contactmanager.h
 usr/include/Decibel/protocolmanager.h
 usr/include/Decibel/dbusnames.h
 usr/include/Decibel/ComponentManager
-usr/include/Decibel/ChannelHandler
 usr/include/Decibel/componentmanager.h
 usr/include/Decibel/Errors
 usr/include/Decibel/channelhandler.h

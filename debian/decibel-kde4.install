@@ -1,5 +1,4 @@
 usr/share/kde4/services/kcm_decibel_accountmanager.desktop
-usr/share/dbus-1/services/de.basyskom.minigui.service
-usr/share/Decibel/components/de.basyskom.minigui.streamchannel.component
 usr/lib/kde4/kcm_decibel_accountmanager.so
 usr/bin/minigui
+usr/bin/textchannelgui
