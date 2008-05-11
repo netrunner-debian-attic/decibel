@@ -1,10 +1,12 @@
 Source: decibel
 Priority: optional
+Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: debhelper (>= 5), cdbs, cmake, libqttapioca-dev, libqt4-dev, quilt, libqttelepathy-dev, kdelibs5-dev
+Build-Depends: debhelper (>= 5), cdbs, cmake, libqttapioca-dev, libqt4-dev, quilt, libqttelepathy-dev, kdelibs5-dev (>= 4:4.0.72)
 Standards-Version: 3.7.3
 Homepage: http://decibel.kde.org
-Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>
+Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>,
+ Modestas Vainius <modestas@vainius.eu>
 
 Package: libdecibel-dev
 Section: libdevel
