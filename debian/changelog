@@ -1,7 +1,7 @@
-decibel (0.7.0+svn806162-1~pre2) UNRELEASED; urgency=low
+decibel (0.7.0~svn806471-1) experimental; urgency=low
 
   * New upstream development snapshot:
-    - The latest upstream commit is r806162 by scripty
+    - The latest upstream commit is r806471 by scripty
     - Date: Sun, 11 May 2008 00:08:26 -0000
 
   +++ Changes by Modestas Vainius:
