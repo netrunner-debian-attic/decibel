@@ -1,3 +1,19 @@
+decibel (0.7.1~svn885653-0r1) UNRELEASED; urgency=low
+
+  * New upstream development snapshot.
+
+  TODO: reorganize package. There is too much stuff in libdecibel.
+
+  +++ Changes by Modestas Vainius:
+
+  * Bump Standards-Version to 3.8.0: add README.source.
+  * Bump build depends on QtTelepathy and QtTapioca to 0.17.7~.
+  * Drop kdelibs5-dev build dependency.
+  * Decibel SONAME bumped to 0.7.1, rename package, add conflicts.
+  * Add libdbus-1-dev to build depends. qdbusxml2cpp needs it.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Nov 2008 18:51:13 +0200
+
 decibel (0.7.0~svn806471-1) experimental; urgency=low
 
   * New upstream development snapshot:
