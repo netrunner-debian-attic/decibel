@@ -2,8 +2,8 @@ Source: decibel
 Priority: optional
 Section: libs
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: debhelper (>= 7), cdbs, cmake, libqt4-dev, quilt,
- libqttapioca-dev (>= 0.17.7~), libqttelepathy-dev (>= ~0.17.7~),
+Build-Depends: debhelper (>= 7), cdbs, cmake, quilt, pkg-kde-tools (>= 0.4),
+ libqt4-dev (>= 4.4.0), libqttapioca-dev (>= 0.17.7~), libqttelepathy-dev (>= ~0.17.7~),
  libdbus-1-dev
 Standards-Version: 3.8.0
 Homepage: http://decibel.kde.org

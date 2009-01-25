@@ -13,6 +13,11 @@ decibel (0.7.1~svn885653-0r1) UNRELEASED; urgency=low
   * Add libdbus-1-dev to build depends. qdbusxml2cpp needs it.
   * Bump debian/compat and debhelper build dependency to v7 (to get more
     sophisticated debian/tmp handling).
+  * Switch from internal debian/cdbs/kde.mk to pkg-kde-tools:
+    - build depend on pkg-kde-tools 0.4;
+    - remove debian/cdbs directory;
+    - replace debian/cdbs/kde.mk with
+      /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:45:05 +0200
 
