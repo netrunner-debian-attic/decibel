@@ -7,8 +7,7 @@ Build-Depends: debhelper (>= 7), cdbs, cmake, quilt, pkg-kde-tools (>= 0.4),
  libdbus-1-dev
 Standards-Version: 3.8.0
 Homepage: http://decibel.kde.org
-Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Matthew Rosewarne <mrosewarne@inoutbox.com>,
- Modestas Vainius <modestas@vainius.eu>
+Uploaders: Sune Vuorela <debian@pusling.com>, Ana Beatriz Guerrero Lopez <ana@debian.org>, Modestas Vainius <modestas@vainius.eu>
 
 Package: libdecibel-dev
 Section: libdevel
