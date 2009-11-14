@@ -14,10 +14,10 @@ Section: libdevel
 Architecture: any
 Depends: libdecibel0.7.1 (= ${binary:Version}), libqttapioca-dev (>= 0.17.7~), libqttelepathy-dev (>= ~0.17.7~)
 Description: development files for the Decibel communications framework
- Decibel is a real-time communications framework, which manages services such
+ Decibel is a real-time communications framework which manages services such
  as Computer Telephony Integration (CTI), Voice over Internet Protocol (VoIP),
- text-based chat, and instant messaging.  It provides a simple D-Bus interface
- for communication protocols, accounts, contacts, and desktop components.
+ text-based chat and instant messaging.  It provides a simple D-Bus interface
+ for communication protocols, accounts, contacts and desktop components.
  .
  This package contains development files for building software that uses the
  Decibel libraries.
@@ -28,10 +28,10 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: libdecibel0.7.0
 Description: libraries for the Decibel communications framework
- Decibel is a real-time communications framework, which manages services such
+ Decibel is a real-time communications framework which manages services such
  as Computer Telephony Integration (CTI), Voice over Internet Protocol (VoIP),
- text-based chat, and instant messaging.  It provides a simple D-Bus interface
- for communication protocols, accounts, contacts, and desktop components.
+ text-based chat and instant messaging.  It provides a simple D-Bus interface
+ for communication protocols, accounts, contacts and desktop components.
  .
  This package contains the Decibel core libraries.
 
@@ -43,10 +43,11 @@ Provides: decibel-kde4
 Replaces: decibel-kde4
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: executables for the Decibel communications framework
- Decibel is a real-time communications framework, which manages services such
+ Decibel is a real-time communications framework which manages services such
  as Computer Telephony Integration (CTI), Voice over Internet Protocol (VoIP),
- text-based chat, and instant messaging.  It provides a simple D-Bus interface
- for communication protocols, accounts, contacts, and desktop components.
+ text-based chat and instant messaging.  It provides a simple D-Bus interface
+ for communication protocols, accounts, contacts and desktop components.
  .
- This package contains programs the Decibel D-Bus service. and the Decibel 
- desktop components for KDE 4.
+ This package contains the Decibel D-Bus service and the Decibel desktop
+ components for KDE 4.
+
