@@ -21,7 +21,7 @@ decibel (0.7.1~svn885653-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Improved description, thanks to Pascal De Vuyst.
+  * Improved description, thanks to Pascal De Vuyst. (Closes: #555709)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:45:05 +0200
 
