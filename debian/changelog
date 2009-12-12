@@ -23,6 +23,10 @@ decibel (0.7.1~svn885653-0r1) UNRELEASED; urgency=low
 
   * Improved description, thanks to Pascal De Vuyst. (Closes: #555709)
 
+  +++ Changes by Modestas Vainius:
+
+  * Change my email address to modax@debian.org in Uploaders field.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:45:05 +0200
 
 decibel (0.7.0~svn806471-1) experimental; urgency=low
