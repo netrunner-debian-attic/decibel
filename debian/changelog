@@ -4,8 +4,7 @@ decibel (0.7.1~svn885653-0r1) UNRELEASED; urgency=low
 
   TODO: reorganize package. There is too much stuff in libdecibel.
 
-  +++ Changes by Modestas Vainius:
-
+  [ Modestas Vainius ]
   * Bump Standards-Version to 3.8.0: add README.source.
   * Bump build depends on QtTelepathy and QtTapioca to 0.17.7~.
   * Drop kdelibs5-dev build dependency.
@@ -18,14 +17,10 @@ decibel (0.7.1~svn885653-0r1) UNRELEASED; urgency=low
     - remove debian/cdbs directory;
     - replace debian/cdbs/kde.mk with
       /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules.
-
-  +++ Changes by Ana Beatriz Guerrero Lopez:
-
-  * Improved description, thanks to Pascal De Vuyst. (Closes: #555709)
-
-  +++ Changes by Modestas Vainius:
-
   * Change my email address to modax@debian.org in Uploaders field.
+
+  [ Ana Beatriz Guerrero Lopez ]
+  * Improved description, thanks to Pascal De Vuyst. (Closes: #555709)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:45:05 +0200
 
